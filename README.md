@@ -1,1 +1,4 @@
-"# StudyLounge App Site" 
+# StudyLounge App Site
+
+
+An HCI Project.
