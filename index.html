@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Study Lounge</title>
+    <meta name="author" content="Adtile">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styleplus.css" />
+    <style>
+    	
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    <script src="js/responsive-nav.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <a href="#home" class="logo" data-scroll>Study<font color="black" class="lounge">Lounge</font></a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+          <li class="menu-item"><a href="#features" data-scroll>Feautres</a></li>
+          <li class="menu-item"><a href="#work" data-scroll>Our Work</a></li>
+          <li class="menu-item"><a href="#who" data-scroll>Who We Are</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+    	<div id="home_section">
+    		<div id="iphoneImage">
+    			<img src="images/mobile.png" id="iphone" />
+    		</div>
+    		<div id="iphoneContent">
+    			<strong class="welcome">Study Lounge Help Students!</strong>
+     			<p id="welcomeMsg">The App which is going to help you through out your degree.</p>
+    		</div>
+    	</div>
+    </section>
+    
+    <section id="features">
+      <h1>FEATURES</h1>
+      <div class="wrapper">
+	      <div class="content">
+	      	<img src="icons/down.png" class="icon" />
+	      	<h3>Download</h3>
+	      	<p>Student can browse through different categories and download any uploaded recorded lectures, notes, ebooks and other stuff. The administrator uplaods different files regarding course and users will be able to either download files or view it online.</p>
+	      </div>
+	      <div class="content">
+	      	<img src="icons/not.png" class="icon" />
+	      	<h3>Get Notifications</h3>
+	      	<p>Missing or forgetting deadlines? This can help you to remember deadlines and keep you alarm before time. This feature may also alert you in advance about the coming events and deadlines depending on the setting you choose to apply.</p>
+	      </div>
+	      <div class="content">
+	      	<img src="icons/chat.png" class="icon" />
+	      	<h3>Communicate with fellows</h3>
+	      	<p>Allow students to communicate with their fellow mates in a virtual student lounge. Students can share content with their fellow mates and discuss topics in groups.</p>
+	      </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h1>OUR WORK &amp; REPORTS</h1>
+      <ul>
+      	<li>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Proposal.pdf">Project Proposal Report</a></strong><br>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Contextual_Inquiry.pdf">Contextual Inquiry Report</a></strong><br>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Concept%20Video%20Prototyping.pdf">Concept Video Report</a></strong><br>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Lowfi%20Prototype.pdf">Low-Fi Report</a></strong><br>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Medfi_Prototype.pdf">Mid-Fi Report</a></strong><br>
+      		<strong><a href="http://www.geocities.ws/essaji/hci/Heuristics_Eval.pdf">Heurisitc Evaluation Report</a></strong><br>
+      	</li>
+      </ul>
+      <h2>Concept Video</h2>
+      <iframe src="https://vid.me/e/sPiC" width="640" height="360" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling="no"></iframe>
+    <br>
+    </section>
+    <section id="who">
+      <h1>WHO WE ARE</h1>
+      <div class="wrapper">
+	      <div class="content">
+	      	<img src="images/essa.jpg" class="memberPic" />
+	      	<h3>EESA ABID</h3>
+	      	<p>Designing, Documentation &amp; Development</p>
+	      </div>
+	      <div class="content">
+	      	<img src="images/member1.jpg" class="memberPic" />
+	      	<h3>ABDUL REHMAN</h3>
+	      	<p>Skteching, Documentation</p>
+	      </div>
+	      <div class="content">
+	      	<img src="images/member1.jpg" class="memberPic" />
+	      	<h3>MUHAMMAD USMAN</h3>
+	      	<p>Documentation, Sketching</p>
+	      </div>
+      </div>
+    </section>
+
+
+	<footer>
+		<p>Copyright (c) 2015</p>
+		<p>Designed &amp; Developed By Essaji</p>
+	</footer>
+	
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+    <script src="js/jq.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$(window).scroll(function(){
+    			if($(window).scrollTop() >= 300){
+    				$('.logo').css('font-size','20px');
+                   
+    			}
+    			else{
+    				$('.logo').css('font-size','25px');
+                    
+    			}
+    		});
+    	});
+    </script>
+  </body>
+</html>
